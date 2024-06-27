@@ -2,7 +2,7 @@ function checkCode() {
   // The correct code and next clue are encoded to obscure them
   var encodedCorrectCode = "cHJpbnRlcg=="; // Base64 encoded "open sesame"
   var encodedNextClue =
-    "TG9vayB1bmRlciB0aGUgbGFyZ2VzdCBwbGFudCBpbiB0aGUgb2ZmaWNlLg=="; // Base64 encoded next clue
+    "TG9vayB1bmRlciB0aGUgcHJpbnRlciBsb2NhdGVkIGJlc2lkZSBKaXJhYWYgbG9nbw=="; // Base64 encoded next clue
 
   var correctCode = atob(encodedCorrectCode);
   var nextClue = atob(encodedNextClue);
